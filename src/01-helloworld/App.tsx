@@ -28,6 +28,9 @@ const Greeting = ({name}: GreetingProps) => {
   );
 };
 
+/**
+ *  This sample is from the [React Native documentation](https://reactnative.dev/docs/tutorial).
+ */
 const HelloWorldApp = () => {
   const [count, setCount] = React.useState(0);
 
